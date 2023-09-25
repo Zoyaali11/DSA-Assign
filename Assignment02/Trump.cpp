@@ -130,7 +130,7 @@ void GetTrump() {
 }
 
 // Function to print the linked list.
-void PrintList() {
+void PrintLink() {
     Node* curr = head;
     while (curr != nullptr) {
         cout << curr->data;
@@ -186,7 +186,7 @@ int main() {
     inputFile.close();
 
     // Print the linked list.
-    PrintList();
+    PrintLink();
 
     // Return 0 to indicate successful execution.
     return 0;
