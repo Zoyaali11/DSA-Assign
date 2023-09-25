@@ -85,8 +85,8 @@ int main() {
     while (inputFile >> num) {
         // Check if the input number is within the valid range
         if (num < 0 || num > 100) {
-            cout << "Invalid input. Numbers must be between 0 and 100." << endl;
-            continue;
+            cout << "Invalid Numbers between 0 and 100." << endl;
+            break;
         }
 
         // Insert the number into the linked list
