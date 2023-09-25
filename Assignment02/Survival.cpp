@@ -53,7 +53,7 @@ double calculateMedian(Node* head, int count) {
     // Check if the count of elements in the list is even
     if (count % 2 == 0) {
         // Calculate and return the average of the middle two elements
-        return (pre->data + curr->data) / 2.0;
+        return (pre->data + curr->data) / 2;
     } else {
         // Return the data of the middle element
         return curr->data;
